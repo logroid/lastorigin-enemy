@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/lastorigin-index/static/css/main.39ca0b7f.chunk.css",
-    "main.js": "/lastorigin-index/static/js/main.c06549a6.chunk.js",
-    "main.js.map": "/lastorigin-index/static/js/main.c06549a6.chunk.js.map",
-    "runtime-main.js": "/lastorigin-index/static/js/runtime-main.4675a46b.js",
-    "runtime-main.js.map": "/lastorigin-index/static/js/runtime-main.4675a46b.js.map",
-    "static/js/2.681d0fd7.chunk.js": "/lastorigin-index/static/js/2.681d0fd7.chunk.js",
-    "static/js/2.681d0fd7.chunk.js.map": "/lastorigin-index/static/js/2.681d0fd7.chunk.js.map",
-    "index.html": "/lastorigin-index/index.html",
-    "precache-manifest.1261a569a1bea96f848373756e23f997.js": "/lastorigin-index/precache-manifest.1261a569a1bea96f848373756e23f997.js",
-    "service-worker.js": "/lastorigin-index/service-worker.js",
-    "static/css/main.39ca0b7f.chunk.css.map": "/lastorigin-index/static/css/main.39ca0b7f.chunk.css.map",
-    "static/js/2.681d0fd7.chunk.js.LICENSE": "/lastorigin-index/static/js/2.681d0fd7.chunk.js.LICENSE"
+    "main.css": "/lastorigin-enemy/static/css/main.8de0710b.chunk.css",
+    "main.js": "/lastorigin-enemy/static/js/main.1aed2acf.chunk.js",
+    "main.js.map": "/lastorigin-enemy/static/js/main.1aed2acf.chunk.js.map",
+    "runtime-main.js": "/lastorigin-enemy/static/js/runtime-main.9787d8d6.js",
+    "runtime-main.js.map": "/lastorigin-enemy/static/js/runtime-main.9787d8d6.js.map",
+    "static/js/2.1ee4172f.chunk.js": "/lastorigin-enemy/static/js/2.1ee4172f.chunk.js",
+    "static/js/2.1ee4172f.chunk.js.map": "/lastorigin-enemy/static/js/2.1ee4172f.chunk.js.map",
+    "index.html": "/lastorigin-enemy/index.html",
+    "precache-manifest.5f014af751464fd9b59fefccf81c094c.js": "/lastorigin-enemy/precache-manifest.5f014af751464fd9b59fefccf81c094c.js",
+    "service-worker.js": "/lastorigin-enemy/service-worker.js",
+    "static/css/main.8de0710b.chunk.css.map": "/lastorigin-enemy/static/css/main.8de0710b.chunk.css.map",
+    "static/js/2.1ee4172f.chunk.js.LICENSE": "/lastorigin-enemy/static/js/2.1ee4172f.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.4675a46b.js",
-    "static/js/2.681d0fd7.chunk.js",
-    "static/css/main.39ca0b7f.chunk.css",
-    "static/js/main.c06549a6.chunk.js"
+    "static/js/runtime-main.9787d8d6.js",
+    "static/js/2.1ee4172f.chunk.js",
+    "static/css/main.8de0710b.chunk.css",
+    "static/js/main.1aed2acf.chunk.js"
   ]
 }
