@@ -193,17 +193,17 @@ const Stage = props =>
 {
   return (
     <div className="stage">
-      <div className="stage-header" onClick={props.toggleExpandStage}>등장 스테이지<i className="material-icons">{(props.isStageExpanded ? "expand_less" : "expand_more")}</i></div>
+      <div className="stage-header" onClick={props.toggleExpandStage}>등장 ステージ<i className="material-icons">{(props.isStageExpanded ? "expand_less" : "expand_more")}</i></div>
       <div className={"stage-inner" + (props.isStageExpanded ? "" : " stage-inner-hidden")}>
         {
           props.SpottedStage.size === 0 ? <table key="stagetable"><thead><tr><th>영원의 전장 (업데이트 예정)</th></tr></thead></table> :
             Array.from(props.SpottedStage, ([key, value]) => (
               <table key={key}>
                 <thead>
-                  {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "구역")}</th></tr>}
+                  {key.includes("Daily") ? "" : <tr><th colSpan={value.length}>{key + (isNaN(key) ? "" : "エリア")}</th></tr>}
                 </thead>
                 <tbody>
-                  <tr>{value.map(stage => (<td key={stage.title}><a href={"https://lastoriginmap.github.io/stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
+                  <tr>{value.map(stage => (<td key={stage.title}><a href={"https://logroid.github.io/stage.html?stagetitle=" + stage.title}>{stage.name || stage.title}</a></td>))}</tr>
                 </tbody>
               </table>
             ))

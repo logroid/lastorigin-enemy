@@ -60,14 +60,14 @@ class Info extends React.Component
         <div className="spec-wrap">
           <div className="spec-item spec-item-header" id="HP"><img src="images/icon_HP2.png" alt="HP Icon" /><div>HP</div></div><div className="spec-item" id="HP"><Tooltip lvlpool={data.lvlpool} tooltipdata={{...enemyData.HP, "increment":Math.floor(enemyData.HP.increment)}} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue({...enemyData.HP, "increment":Math.floor(enemyData.HP.increment)}, lvl)}</span></Tooltip></div>
           <div className="spec-item spec-item-header"></div><div className="spec-item" ></div>
-          <div className="spec-item spec-item-header"><img src="images/icon_ATK2.png" alt="ATK Icon" /><div>공격력</div></div><div className="spec-item" id="ATK"><Tooltip lvlpool={data.lvlpool} tooltipdata={enemyData.ATK} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.ATK, lvl)}</span></Tooltip></div>
-          <div className="spec-item spec-item-header"><img src="images/icon_HIT2.png" alt="HIT Icon" /><div>적중률</div></div><div className="spec-item" id="HIT">{enemyData.HIT} %</div>
-          <div className="spec-item spec-item-header"><img src="images/icon_CRT2.png" alt="CRT Icon" /><div>치명타</div></div><div className="spec-item" id="CRT">{enemyData.CRT} %</div>
-          <div className="spec-item spec-item-header"><img src="images/icon_DEF2.png" alt="DEF Icon" /><div>방어력</div></div><div className="spec-item" id="DEF"><Tooltip lvlpool={data.lvlpool} tooltipdata={enemyData.DEF} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.DEF, lvl)}</span></Tooltip></div>
-          <div className="spec-item spec-item-header"><img src="images/icon_DOD2.png" alt="DOD Icon" /><div>회피율</div></div><div className="spec-item" id="DOD">{enemyData.DOD} %</div>
-          <div className="spec-item spec-item-header"><img src="images/icon_AGI.png" alt="AGI Icon" /><div>행동력</div></div><div className="spec-item" id="AGI">{enemyData.AGI}</div>
+          <div className="spec-item spec-item-header"><img src="images/icon_ATK2.png" alt="ATK Icon" /><div>攻撃力</div></div><div className="spec-item" id="ATK"><Tooltip lvlpool={data.lvlpool} tooltipdata={enemyData.ATK} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.ATK, lvl)}</span></Tooltip></div>
+          <div className="spec-item spec-item-header"><img src="images/icon_HIT2.png" alt="HIT Icon" /><div>命中率</div></div><div className="spec-item" id="HIT">{enemyData.HIT} %</div>
+          <div className="spec-item spec-item-header"><img src="images/icon_CRT2.png" alt="CRT Icon" /><div>クリティカル</div></div><div className="spec-item" id="CRT">{enemyData.CRT} %</div>
+          <div className="spec-item spec-item-header"><img src="images/icon_DEF2.png" alt="DEF Icon" /><div>防御力</div></div><div className="spec-item" id="DEF"><Tooltip lvlpool={data.lvlpool} tooltipdata={enemyData.DEF} isStatExpanded={this.state.isStatExpanded}><span className="tooltip-text" onClick={this.toggleExpandStat}>{this.calcLvlValue(enemyData.DEF, lvl)}</span></Tooltip></div>
+          <div className="spec-item spec-item-header"><img src="images/icon_DOD2.png" alt="DOD Icon" /><div>回避率</div></div><div className="spec-item" id="DOD">{enemyData.DOD} %</div>
+          <div className="spec-item spec-item-header"><img src="images/icon_AGI.png" alt="AGI Icon" /><div>行動力</div></div><div className="spec-item" id="AGI">{enemyData.AGI}</div>
           <div className="spec-item resist-wrap">
-            <div className="spec-item resist resist-header">속성 저항</div>
+            <div className="spec-item resist resist-header">属性抵抗</div>
             <div className="spec-item resist" id="fire"><img className="icon-attr" src="images/fire.png" alt="fireicon" /> {enemyData.resist[0]} %</div>
             <div className="spec-item resist" id="ice"><img className="icon-attr" src="images/ice.png" alt="iceicon" /> {enemyData.resist[1]} %</div>
             <div className="spec-item resist" id="electric"><img className="icon-attr" src="images/electric.png" alt="electricicon" /> {enemyData.resist[2]} %</div>

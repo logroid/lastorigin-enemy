@@ -49,7 +49,7 @@ class Skill extends React.Component
     return (
       <div className="skill-container">
         <div className="skill-header">
-          <h3>보유 스킬</h3>
+          <h3>スキル</h3>
         </div>
         <div className={skillNavWrapClass}>
           <nav className="skill-nav">
@@ -127,7 +127,7 @@ class SkillView extends React.Component
           <p>{skilldata.description.replace(/\$\((\d+\.*\d*)\)/g, (skillpower)+" ($1배)").split('<br>').map((line, i) => <span key={i}>{line}<br /></span>)}</p>
         </div>
         <div className="skill-range">
-          사정거리 {skilldata.range}<br />AP-{skilldata.AP}
+          射程距離 {skilldata.range}<br />AP-{skilldata.AP}
         </div>
       </div>
     );
@@ -141,7 +141,7 @@ class InfoView extends React.Component
   {
     return (
       <div className="skillview-container info-description">
-        <h3>대상 정보</h3>
+        <h3>대상 情報</h3>
         <p>{this.props.enemyInfo.split('<br>').map((line, i) => <span key={i}>{line}<br /></span>)}</p>
       </div>
     );

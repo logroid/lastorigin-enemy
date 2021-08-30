@@ -51,7 +51,7 @@ export function loadAreaData(areaNum)
 	});
 }
 
-//스테이지 데이터 로드 함수
+//ステージ 데이터 로드 함수
 export function loadStageData(stageTitle)
 {
 	return new Promise(resolve =>
